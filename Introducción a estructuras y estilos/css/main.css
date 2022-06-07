@@ -1,0 +1,102 @@
+html, body {
+    font-size: Times New Roman;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+body {
+width: 70%;
+margin: 0 auto;
+}
+@media (max-width:	992px) {
+    body {
+        width: 100%;
+        margin: 0 auto;
+        }
+}
+.foto-div {
+    display: flex;
+    justify-content: center; 
+    background-color: #E6E6E6;
+}
+.foto {
+    width: 10rem;
+    height: 10rem;
+    padding: 1rem;
+}
+.titulo {
+    color: #005677;
+    background-color: #C4C4C4;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.titulo h1 {
+    margin: 0;
+}
+.enlace-html a{
+        background-color: #005677;
+        color: #fff;
+        text-decoration: none;
+        padding: 1rem 2rem;
+        transition: all ease .2s;
+        font-weight: bold;
+    }
+.enlace-html a:hover{
+        background-color: #003b52;
+    }
+.enlace-html {
+margin-bottom: 3rem;
+    }
+
+.seccion {
+    margin-bottom: 2rem;
+}
+.seccion h2{
+    color: #005677;
+    background-color: #C4C4C4;
+    text-transform: uppercase;
+    margin: 0 0 1rem 0;
+    padding-left: 1rem;
+}
+.seccion p{
+margin: 0;
+}
+
+.seccion-datos span{
+    font-weight: bold;
+    margin-right: 5px;
+}
+.seccion-academica div, .seccion-experiencia div{
+    display: flex;
+    margin-bottom: 10px;
+}
+.fechas {
+    margin: 0 5px 5px 30px;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    color: white;
+    background-color: #005677;
+}
+.puesto {
+    margin-left: 50px;
+}
+
+.icon-footer {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.sobre-mi-texto {
+text-align: center;
+margin: 0 auto;
+}
+@media (min-width:	992px) {
+.sobre-mi-texto {
+    width: 70%;
+    margin-bottom: 3rem;
+}
+
+}
